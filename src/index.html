@@ -5,9 +5,32 @@
     <title>Tarjeta de crédito válida</title>
     <link rel="stylesheet" href="style.css" />
   </head>
+
   <body>
-    <header></header>
-    <main></main>
+    <header> 
+      <h1> MÉTODOS DE PAGO </h1>
+    </header>
+
+    <main>
+
+    <h2> AÑADE TU TARJETA </h2>
+    <img src="escritorio/erickalab/src/tarjeta.png">
+
+    <form class="card">
+       <input type="text" id="numeros" name="numeros" value="Número de tarjeta"></input> <br>
+       <input type="text" id="fecha" name="fecha"></input>
+       <input type="text" id="cvc" name="cvc"></input> <br>
+       <input type="text" id="cvc" name="nombre" maxlength="3"></input> <br>
+       <input type="text" id="correo" name="correo"></input> <br>
+    </form>
+
+      <button type="submit" class="btn-enviar"> PAGAR </button>
+   
+    </main>
+    
+  </figure>
+
+
     <footer></footer>
     <script src="index.js" type="module"></script>
   </body>
